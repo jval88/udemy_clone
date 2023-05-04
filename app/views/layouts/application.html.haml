@@ -11,4 +11,6 @@
     = javascript_include_tag "application", "data-turbo-track": "reload", defer: true
   %body
     = render 'static_pages/header'
+    %p.notice= notice
+    %p.alert= alert
     = yield
