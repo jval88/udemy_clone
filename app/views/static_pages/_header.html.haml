@@ -16,6 +16,11 @@
               = link_to courses_path, class:"btn btn-secondary" do
                 %i.fa-solid.fa-book
                 Courses
+          %li.nav-item
+            %a.nav-link{:href => "#"}
+              = link_to new_course_path, class:"btn btn-secondary" do
+                %i.fa-solid.fa-plus
+                New Course
           %li.nav-item.dropdown
             %a.nav-link.dropdown-toggle{"aria-expanded" => "false", "data-bs-toggle" => "dropdown", :href => "#", :role => "button"}
               Dropdown
