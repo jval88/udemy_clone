@@ -18,6 +18,11 @@
                 Courses
           %li.nav-item
             %a.nav-link{:href => "#"}
+              = link_to users_path, class:"btn btn-secondary" do
+                %i.fa-solid.fa.fa-user
+                Users
+          %li.nav-item
+            %a.nav-link{:href => "#"}
               = link_to new_course_path, class:"btn btn-secondary" do
                 %i.fa-solid.fa-plus
                 New Course
